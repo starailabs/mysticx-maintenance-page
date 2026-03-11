@@ -6,6 +6,9 @@
     "dev": "next dev -p 3503",
     "build": "next build",
     "start": "next start -p 3503",
+    "pm2": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop mysticx-maintenance",
+    "pm2:restart": "pm2 restart mysticx-maintenance",
     "lint": "eslint"
   },
   "dependencies": {
